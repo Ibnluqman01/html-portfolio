@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-image: url(mango.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mangools{
+    display: flex;
+    margin-bottom: 30px;
+    color: #444;
+    justify-content: center;
+}
+.icon{
+    margin-right: 10px;
+    height: 23px;
+    width: 17px;
+    margin-top: 5px;
+}
+.i_name{
+    font-size: 25px;
+    font-weight: 900;
+}
+.header{
+    color: #444;
+    margin-bottom: 30px;
+    text-align: center;
+}
+form{
+    width: max-content;
+    background-color: white;
+    padding: 20px 25px 30px 25px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 6px 0.2px rgba(202, 199, 199, 0.349);
+}
+.sec2{
+    justify-content: center;
+    display: flex;
+}
+.email-cont{
+    display: flex;
+    justify-content: center;
+}
+.pwd-cont{
+    display: flex;
+    justify-content: center;
+}
+.email-pwd{
+    border: 1px solid #444;
+    height: 1.2cm;
+    width: 10cm;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-color: #bbb;
+}
+.email-pwd:hover{
+    outline: 1px solid #444;
+}
+input{
+    height: 0.86cm;
+    width: 7cm;
+    margin-left: 15px;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-right: none;
+    padding-left: 10px;
+    outline: none;
+    display: flex;
+}
+i{
+    padding-left: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #444;
+}
+button{
+    height: 1cm;
+    width: 8.5cm;
+    margin-bottom: 30px;
+    background-color: rgb(5, 197, 5);
+    border: none;
+    font-weight: 600;
+    border-radius: 30px;
+    color: white;
+}
+a{
+    color: blue;
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+.btn-cont{
+    text-align: center;
+}
+.acc{
+    margin-right: 60px;
+}
+.sec3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.kw{
+    display: flex;
+
+}
+.kw h1{
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.i-ft{
+    width: 12px; margin-left: 30px; margin-right: 15px;
+    border: none;
+    background-color: white;
+    padding: 8px 10px;
+    box-shadow: 5px 5px 6px 0.2px rgba(202, 199, 199, 0.226);
+}
